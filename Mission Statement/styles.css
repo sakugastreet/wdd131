@@ -1,4 +1,4 @@
-.h2{
+h2{
     color: rgb(43, 99, 162);
 }
 
@@ -33,4 +33,13 @@ li {
 div {
     padding: 5%;
     font-size: 20px;
+}
+
+.dark {
+    background-color: #333;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+}
+
+.dark h2 {
+    -webkit-text-fill-color: rgb(160, 212, 237) ;
 }
