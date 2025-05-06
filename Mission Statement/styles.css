@@ -37,9 +37,9 @@ div {
 
 .dark {
     background-color: #333;
-    -webkit-text-fill-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 .dark h2 {
-    -webkit-text-fill-color: rgb(160, 212, 237) ;
+    color: rgb(160, 212, 237) ;
 }
