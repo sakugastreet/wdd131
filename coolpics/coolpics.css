@@ -67,7 +67,7 @@ button {
         grid-template-columns: 1fr 1fr 1fr;
         
     }
-    button {
+    button.menu{
         display: none;
     }
     .hidden {
