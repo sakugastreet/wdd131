@@ -16,6 +16,8 @@ menu.addEventListener("click", function() {
     }
 })
 
+
+
 let modal = document.createElement("dialog");
 modal.innerHTML = "<img></img><button id='closeBtn'>close</button>";
 document.body.appendChild(modal);
