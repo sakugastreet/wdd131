@@ -32,13 +32,16 @@ nav a {
     grid-template-columns: 2fr 1fr;
 }
 
-
+.shelf {
+    padding: 10px;
+    margin: 10px;
+}
 
 .book {
-    padding: 10px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-content: center;
+    padding: 20px;
 }
 
 

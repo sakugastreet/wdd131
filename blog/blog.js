@@ -23,7 +23,21 @@ const articles = [
 		ages: '12-16',
 		genre: 'Fantasy',
 		stars: '⭐⭐⭐⭐'
-	}
+	},
+	{
+		id: 3,
+		title: "Belgariad Book One: Pawn of Prophecy",
+		date: "Feb 12, 2022",
+		description:
+		"A fierce dispute among the Gods and the theft of a powerful Orb leaves the World divided into five kingdoms. Young Garion, with his 'Aunt Pol' and an elderly man calling himself Wolf --a father and daughter granted near-immortality by one of the Gods -- set out on a complex mission.",
+		imgSrc:
+		"https://images-na.ssl-images-amazon.com/images/I/41ZxXA+nInL.jpg",
+		imgAlt: "Book cover for Pawn of Prophecy",
+		ages: "12-16",
+		genre: "Fantasy",
+		stars: "⭐⭐⭐⭐⭐"
+}
+
 ]
 
 const shelf = document.body.querySelector(".shelf")
@@ -35,7 +49,7 @@ for (let i = 0; i < articles.length; i++) {
 
 	let book = document.createElement("div");
 	book.classList.add("book");
-	book.innerHTML = `<div class="book">
+	book.innerHTML = `
                 <div class="metadata">
                     <p class="date">${article.date}</p>
                     <p class="age_range">${article.ages}</p>
@@ -48,8 +62,7 @@ for (let i = 0; i < articles.length; i++) {
                         <img src="${article.imgSrc}" alt="${article.imgAlt}">
                     </figure>
                     <p class="description">${article.description}</p>
-                </div>
-            </div>`;
+                </div>`;
 	shelf.appendChild(book);
 }
 
