@@ -30,7 +30,8 @@ let attackedBut = document.getElementById("attacked")
 
 levelUpBut.addEventListener("click", () => {
   character.levelUp();
-  level.textContent = character.level; // optional: update the DOM
+  level.textContent = character.level;
+  attacked.textContent = character.health;
 });
 
 attackedBut.addEventListener("click", () => {
