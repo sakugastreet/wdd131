@@ -8,8 +8,8 @@ const projectLog = [
   {
     name: "Listed Project on Steam",
     date: "Dec 2023",
-    description: "After 1.5 years of development, we listed Trophy Hunt on steam... and never updated again",
-    tags: ["visual development"]
+    description: "After 1.5 years of development, we listed Trophy Hunt on steam... and never updated again. about 500 people played for an average of 35 mins. Occasionally people still play today",
+    tags: ["A learning experience"]
   }
 ];
 
