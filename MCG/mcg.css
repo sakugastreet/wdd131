@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=family=Mooli&display=swap");
+ :root {
+ --primary-color: #f5f2ed;
+ --secondary-color: #a3dbe785;
+ --accent-color: #dcebf1;
+ --text-dark: #333;
+ --text-light: #ebebeb;
+ --primary-font: Arial, Helvetica,sans-serif;
+ --secondary-font: Mooli, san-serif;
+ }
+
+
+header, footer {
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: var(--text-dark);
+    padding: 20px;
+}
+
+.banner{
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.gameimg{
+    max-width: 75%;
+    min-width: 75%;
+}
+body {
+    background-color: var(--primary-color);
+}
+
+main {
+    padding: 20px;
+}
+
+button {
+    background-color: var(--secondary-color);
+    border: solid 0px;
+    padding: 20px;
+}
+
+.games {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.game {
+    border-radius: 25px;
+    background-color: var(--secondary-color);
+    box-shadow: var(--accent-color);
+    padding: 20px;
+    margin: 10px;
+}
+
+.update {
+    border-radius: 25px;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    margin: 10px;
+}
+
+.tag {
+    border-radius: 25px;
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+}
